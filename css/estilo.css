@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: #fff;
+    height: 60px;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    padding-left: 10px;
+    color: #585A5B;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+ion-icon {
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    transition: .3s ;
+}
+ion-icon:hover {
+    background: #dcdcdc ;
+    border-radius: 20px ;
+}
+.btn-cinza{
+    font-size: 13px;
+    text-decoration: none;
+    background-color: #f8f9fa;
+    padding: 8px 20px 8px 20px;
+    color: #4b4e51;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.pesquisa{
+    margin: 10px;
+    height: 40px;
+    min-width: 50vw;
+    max-width: 75vw;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+}
+.pesquisa.hover{
+    box-shadow: 2px 0px 5px 1px rgba(0, 0, 0, 1);
+}
+.btn{
+    background-color: #1A73E8;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.btn:hover{
+    background-color: #1A73E8e8;
+    
+}
+.main{
+    background-color: #fff;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    color: #6B7682;
+    background-color: #f2f2f2;
+    height: 60px;
+    border-bottom: 1px solid #DDDFE3;
+    font-size: 10px;
+    padding-left: 10px;
+
+    display: flex;
+    align-items: center; 
+}
